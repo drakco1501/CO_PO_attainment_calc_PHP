@@ -1,0 +1,105 @@
+/* Navigation Bar */
+body {
+    margin: 0;
+    margin-top: 10%;
+    padding: 0;
+    background-color:white;  
+    color: #000000;
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Navigation Bar */
+nav {
+    font-size: 1.4em;
+    background: #1e2833;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.logo img{
+    display: inline-block;
+    padding: 0;
+    width: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-left: 20%;
+}
+nav a {
+    color: #8fd6e1;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease-in-out;
+}
+.nav_elements{
+    display: inline-block;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+}
+nav a:hover {
+    color: #e1c16e;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+.log_out_btn{
+    margin-right: 6%;
+}
+.log_out_btn button {
+    background: #e1c16e;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* Forms */
+form {
+    background: #1e2833;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6), 0 0 30px #8fd6e1;
+    text-align: center;
+    margin: 0;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #8fd6e1;
+    text-shadow: 0 0 5px #8fd6e1, 0 0 10px #8fd6e1;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Button Styles */
+button {
+    background: #e1c16e;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #c9aa5d;
+    transform: scale(1.1);
+}
+
+button:active {
+    background: #b89454;
+    transform: scale(0.95);
+}
